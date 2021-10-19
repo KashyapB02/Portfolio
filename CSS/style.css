@@ -41,6 +41,12 @@ body
     text-decoration: none;
 }
 
+.web
+{
+    justify-content: space-between;
+    word-spacing: 25px;
+}
+
 .nav-bar a
 {
     font-weight: bold;
