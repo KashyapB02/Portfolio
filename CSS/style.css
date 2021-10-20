@@ -1,5 +1,5 @@
 *{
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman";
     border-radius: 10px;
 }
 
@@ -11,6 +11,8 @@ html
 body
 {
     background-color: powderblue;
+    width: 760px;
+    margin: auto;
 }
 
 .head
@@ -26,12 +28,6 @@ body
     padding-bottom: 10px;
 }
 
-.footer
-{
-    background-color:rgba(0, 139, 139, 0.747);
-    padding: 2px;
-}
-
 .nav-bar
 {
     display: flex;
@@ -40,12 +36,7 @@ body
     margin-bottom: 10px;
     padding: 7px;
     text-decoration: none;
-}
-
-.web
-{
-    justify-content: space-between;
-    word-spacing: 25px;
+    text-align: center;
 }
 
 .nav-bar a
@@ -53,6 +44,7 @@ body
     font-weight: bold;
     padding: 2px 10px;
     color: black;
+    margin: auto;
 }
 .nav-bar a:hover
 {
@@ -63,6 +55,61 @@ body
     background-color:lightblue;
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.151);
     transition: all 0.2s;
+}
+
+.personal
+{
+    justify-content: space-evenly;
+    display: flex;
+    width: 320px;
+    margin-left: 220px;
+}
+
+.personal a
+{
+    padding: 2px 3px;
+    color: black;
+    /* margin: auto; */
+}
+.personal a:hover
+{
+    transform: scale(1.1);
+    border: 5px;
+    border-radius: 10px;
+    border-color: black;
+    background-color:lightblue;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.151);
+    transition: all 0.1s;
+}
+
+.web
+{
+    justify-content:space-evenly;
+    display: flex;
+    width: 456px;
+    margin-left: 152px;
+}
+
+.web a
+{
+    padding: 2px 3px;
+    color: black;
+    margin: auto;
+}
+.web a:hover
+{
+    transform: scale(1.1);
+    border: 5px;
+    border-radius: 10px;
+    border-color: black;
+    background-color:lightblue;
+    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.151);
+    transition: all 0.1s;
+}
+
+.footer
+{
+    padding-bottom: 5px;
 }
 
 hr
