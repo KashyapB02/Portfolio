@@ -8,13 +8,17 @@ html
     scroll-behavior: smooth;
 }
 
+/* CSS for Body */
+
 body
 {
     background-color: rgb(235, 235, 235);
-    width: 760px;
+    width:56%;
     margin: auto;
     padding-top: 5px;
 }
+
+/* CSS for Heading */
 
 .head
 {
@@ -22,12 +26,7 @@ body
     padding: 5px;
 }
 
-.contact
-{
-    background-color:white;
-    padding: 1px;
-    padding-bottom: 10px;
-}
+/* CSS for Internal Navigation Bar */
 
 .nav-bar
 {
@@ -42,6 +41,8 @@ body
     top: 0px; */
 }
 
+/* CSS for Elements Inside Internal Navigation Bar */
+
 .nav-bar a
 {
     font-weight: bold;
@@ -49,6 +50,9 @@ body
     color: black;
     margin: auto;
 }
+
+/* Hover Effect for Elements Inside Internal Navigation Bar */
+
 .nav-bar a:hover
 {
     transform: scale(1.1);
@@ -59,21 +63,37 @@ body
     transition: all 0.2s;
 }
 
-.personal
+/* CSS for Contacts */
+
+.contact
+{
+    background-color:white;
+    padding: 1px;
+    padding-bottom: 10px;
+}
+
+/* CSS for Personal Contacts */
+
+.personal-contact
 {
     justify-content: space-evenly;
     display: flex;
-    width: 320px;
-    margin-left: 220px;
+    width: 42%;
+    margin-left: 29%;
 }
 
-.personal a
+/* CSS for Elememts Inside Personal Contacs */
+
+.personal-contact a
 {
     padding: 2px 3px;
     color: black;
     /* margin: auto; */
 }
-.personal a:hover
+
+/* Hover Effect for Elements Inside Personal Contact */
+
+.personal-contact a:hover
 {
     transform: scale(1.1);
     border: 5px;
@@ -83,21 +103,28 @@ body
     transition: all 0.1s;
 }
 
-.web
+/* CSS for Social Contacts */
+
+.social-contact
 {
     justify-content:space-evenly;
     display: flex;
-    width: 532px;
-    margin-left: 114px;
+    width: 70%;
+    margin-left: 15%;
 }
 
-.web a
+/* CSS for Elememts Inside Social Contacs */
+
+.social-contact a
 {
     padding: 2px 3px;
     color: black;
     margin: auto;
 }
-.web a:hover
+
+/* Hover Effect for Elements Inside Social Contact */
+
+.social-contact a:hover
 {
     transform: scale(1.1);
     border: 5px;
@@ -106,31 +133,56 @@ body
     /* box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.151); */
     transition: all 0.1s;
 }
+
+/* CSS for Horizontal Lines */
 
 hr
 {
     color: blue;
 }
 
+/* CSS for 2nd Headings */
+
 h2
 {
     color: #004AAD;
 }
+
+/* CSS for Main Heading (Name) */
 
 h1
 {
     color: #004AAD;
 }
 
+/* CSS for Responsive Website */
+
 @media (max-width:1000px)
 {
+    /* Responsive Main Body */
+    .main
+    {
+        width: auto;
+    }
+    
+    /* Responsive Navigation Bar */
     .nav-bar
     {
         flex-direction: column;
         align-items: center;
     }
-    .main
+
+    /* Responsive Personal Contacts */
+    .personal-contact
     {
-        width: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Responsive Social Contacts */
+    .social-contact
+    {
+        flex-direction: column;
+        align-items: center;
     }
 }
