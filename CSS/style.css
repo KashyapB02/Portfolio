@@ -10,7 +10,7 @@ html
 
 body
 {
-    background-color: powderblue;
+    background-color: rgb(235, 235, 235);
     width: 760px;
     margin: auto;
     padding-top: 5px;
@@ -18,13 +18,13 @@ body
 
 .head
 {
-    background-color: skyblue;
+    background-color: white;
     padding: 5px;
 }
 
 .contact
 {
-    background-color:lightcyan;
+    background-color:white;
     padding: 1px;
     padding-bottom: 10px;
 }
@@ -32,12 +32,14 @@ body
 .nav-bar
 {
     display: flex;
-    background-color:skyblue;
+    background-color:white;
     justify-content: space-between;
     margin-bottom: 10px;
     padding: 7px;
     text-decoration: none;
     text-align: center;
+    /* position: sticky;
+    top: 0px; */
 }
 
 .nav-bar a
@@ -53,7 +55,7 @@ body
     border: 5px;
     border-radius: 10px;
     border-color: black;
-    background-color:lightblue;
+    background-color:rgb(235, 235, 235);
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.151);
     transition: all 0.2s;
 }
@@ -111,6 +113,16 @@ body
 hr
 {
     color: blue;
+}
+
+h2
+{
+    color: #004AAD;
+}
+
+h1
+{
+    color: #004AAD;
 }
 
 @media (max-width:1000px)
