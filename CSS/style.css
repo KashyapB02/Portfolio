@@ -13,7 +13,7 @@ html
 body
 {
     background-color: rgb(235, 235, 235);
-    width:56%;
+    width:60%;
     margin: auto;
     padding-top: 5px;
 }
@@ -184,5 +184,14 @@ h1
     {
         flex-direction: column;
         align-items: center;
+    }
+}
+
+@media (max-width:700px)
+{
+    /* Responsive Main Body */
+    body
+    {
+        width: auto;
     }
 }
